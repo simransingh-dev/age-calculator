@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  background: radial-gradient(circle at top, #0f172a, #020617);
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.container {
+  max-width: 900px;
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+  font-size: 32px;
+  background: linear-gradient(to right, #60a5fa, #a855f7);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.subtitle {
+  text-align: center;
+  color: #94a3b8;
+  margin-bottom: 25px;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  border-radius: 15px;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  box-shadow: 0 0 25px rgba(99,102,241,0.2);
+}
+
+.left, .right {
+  width: 48%;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(to right, #6366f1, #ec4899);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.03);
+}
+
+.safe {
+  font-size: 12px;
+  color: #94a3b8;
+}
+
+.big {
+  font-size: 70px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.extra {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.box {
+  width: 30%;
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 20px rgba(236,72,153,0.3);
+}

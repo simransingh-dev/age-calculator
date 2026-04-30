@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Age Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1 class="title">🎂 Age Calculator</h1>
+  <p class="subtitle">Discover your age in detail</p>
+
+  <div class="card glass">
+    
+    <div class="left">
+      <label>Enter your date of birth</label>
+      <input type="date" id="dob">
+      <button onclick="calculateAge()">Calculate Age</button>
+      <p class="safe">✔ Your data is safe. We don't store it.</p>
+    </div>
+
+    <div class="right">
+      <h2>Your Age</h2>
+      <h1 id="years" class="big">--</h1>
+      <p><span id="months">--</span> months | <span id="days">--</span> days</p>
+      <p id="bornDay"></p>
+    </div>
+
+  </div>
+
+  <div class="extra">
+    <div class="box glass">
+      <p>Total Days Lived</p>
+      <h3 id="totalDays">--</h3>
+    </div>
+    <div class="box glass">
+      <p>Total Hours Lived</p>
+      <h3 id="totalHours">--</h3>
+    </div>
+    <div class="box glass">
+      <p>Total Minutes Lived</p>
+      <h3 id="totalMinutes">--</h3>
+    </div>
+  </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
