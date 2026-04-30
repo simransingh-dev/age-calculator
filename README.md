@@ -1,6 +1,7 @@
 # Age Calculator 🎂
 
 A simple age calculator built using HTML, CSS, and JavaScript.
+Live Demo: https://simransingh-dev.github.io/age-calculator/
 
 ## 🚀 Features
 - Calculates age in years, months, and days
@@ -19,4 +20,3 @@ A simple age calculator built using HTML, CSS, and JavaScript.
 
 ## 💡 Author
 Simran Singh
-GitHub: https://github.com/simransingh-dev
