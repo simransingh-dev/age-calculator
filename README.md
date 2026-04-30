@@ -19,3 +19,4 @@ A simple age calculator built using HTML, CSS, and JavaScript.
 
 ## 💡 Author
 Simran Singh
+GitHub: https://github.com/simransingh-dev
